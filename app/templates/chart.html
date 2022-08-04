@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title>PyExpense Manager | HOME </title>
+
+    <link rel="icon" type="image/x-icon" href="/static/images/pyexpense.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+      h1.normal, h2.normal, h3.normal, h4.normal, h5.normal, h6.normal {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+      }
+
+      h1.thick, h2.thick, h3.thick, h4.thick, h5.thick, h6.thick {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+      }
+
+      h1.thicker, h2.thicker, h3.thicker, h4.thicker, h5.thicker, h6.thicker {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid" style="background-color: #6BE9AD;">
+      <br>
+      <a href="/">
+        <img src="/static/images/logo.png" class="rounded-circle img-thumbnail img-fluid mx-auto d-block" style="width:18%" alt="PyExpense Manager"> 
+      </a>
+      <br>
+    </div>
+    
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #000000">
+      <a class="navbar-brand" href="/">
+        <img src="/static/images/pyexpense.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+      </a>
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/limit">Change Limit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/charts">Charts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 3</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <br>
+
+    <button type="button" class="btn mx-auto d-block btn-info">
+        <div class="container mt-3 mx-auto d-block text-center">
+            <h2>Pie Chart</h2>
+            <p>of All Expenses</p>
+            <img class="img-fluid mx-auto d-block" src="/static/images/pie.jpg" alt="New York" width="600" > 
+        </div>
+    </button>
+    <br>
+    <button type="button" class="btn mx-auto d-block btn-info">
+      <div class="container mt-3 mx-auto d-block text-center">
+          <h2>Bar Chart</h2>
+          <p>of All Expenses</p>
+          <img class="img-fluid mx-auto d-block" src="/static/images/bar.jpg" alt="New York" width="600" > 
+      </div>
+    </button>
+    <br>
+  </body>
+</html>
